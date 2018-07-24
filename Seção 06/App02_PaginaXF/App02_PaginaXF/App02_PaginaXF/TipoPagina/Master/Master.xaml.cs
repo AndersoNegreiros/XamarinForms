@@ -20,19 +20,19 @@ namespace App02_PaginaXF.TipoPagina.Master
         private void MudarPagina1(object sender, EventArgs args)
         {
             Detail = new NavigationPage( new Navigation.Pagina1());
-            IsPresented = false; // Esconder o menu após ser clicado.
+            IsPresented = false; // Esconder o menu após ser clicado
         }
 
         private void MudarPagina2(object sender, EventArgs args)
         {
             Detail = new Navigation.Pagina2();
-            IsPresented = false; // Esconder o menu após ser clicado.
+            IsPresented = false; // Esconder o menu após ser clicado
         }
 
         private void MudarPagina3(object sender, EventArgs args)
         {
             Detail = new Conteudo();
-            IsPresented = false; // Esconder o menu após ser clicado.
+            IsPresented = false; // Esconder o menu após ser clicado
         }
     }
 }
